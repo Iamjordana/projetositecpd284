@@ -162,7 +162,11 @@ main {
 
 .card {
   width: 100%;
+<<<<<<< HEAD
   height: 280px;
+=======
+  height: 200px;
+>>>>>>> d322e0bb64f133d00c198e5e7d2f609d233f5ec2
 
   background: white;
   border-radius: 18px;
@@ -178,11 +182,19 @@ main {
 
 
 
+<<<<<<< HEAD
 .card img { 
   max-width: 90%;
   height: 180px;
   object-fit: contain;
   margin-bottom: 15px;
+=======
+.card img {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  margin-bottom: 12px;
+>>>>>>> d322e0bb64f133d00c198e5e7d2f609d233f5ec2
 }
 
 .btn_atalho {
