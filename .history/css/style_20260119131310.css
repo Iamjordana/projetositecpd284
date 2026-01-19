@@ -153,32 +153,29 @@ main {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 🔥 SEMPRE 2 */
-  gap: 24px;
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 22px;
+  justify-items: center;
+  padding: 30px 20px;
 }
 .card {
   width: 200px;
-  height: 215px;
+  height: 210px;
   background: #fff;
   border-radius: 18px;
-  padding: 12px;
+  padding: 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* CENTRALIZA CONTEÚDO */
-  gap: 12px;
+  justify-content: space-between;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .card img {
-  width: 115px;     /* AUMENTA a imagem */
-  height: 115px;
+  width: 95px;
+  height: 95px;
   object-fit: contain;
-  display: block;
-  margin: 0 auto;   /* CENTRALIZA */
-} 
+}
 
 
 .btn_atalho {

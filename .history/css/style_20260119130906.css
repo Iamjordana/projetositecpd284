@@ -159,27 +159,31 @@ main {
   margin: auto;
   padding: 0 20px;
 }
+
 .card {
-  width: 200px;
-  height: 215px;
-  background: #fff;
+  width: 100%;
+  height: 250px;
+
+  background: white;
   border-radius: 18px;
-  padding: 12px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* CENTRALIZA CONTEÚDO */
-  gap: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-}
-.card img {
-  width: 115px;     /* AUMENTA a imagem */
-  height: 115px;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;   /* CENTRALIZA */
-} 
 
+  padding: 20px;
+  box-shadow: var(--sombra-media);
+  transition: 0.3s;
+}
+
+
+
+.card img { 
+  max-width: 80%;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
 
 .btn_atalho {
   margin-top: auto;

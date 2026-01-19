@@ -173,13 +173,13 @@ main {
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 .card img {
-  width: 115px;     /* AUMENTA a imagem */
-  height: 115px;
+  width: 110px;     /* AUMENTA a imagem */
+  height: 110px;
   object-fit: contain;
   display: block;
   margin: 0 auto;   /* CENTRALIZA */
 } 
-
+  
 
 .btn_atalho {
   margin-top: auto;

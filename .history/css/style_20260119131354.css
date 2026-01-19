@@ -153,11 +153,10 @@ main {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 🔥 SEMPRE 2 */
-  gap: 24px;
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 22px;
+  justify-items: center;
+  padding: 30px 20px;
 }
 .card {
   width: 200px;
@@ -172,13 +171,15 @@ main {
   gap: 12px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
+
 .card img {
   width: 115px;     /* AUMENTA a imagem */
   height: 115px;
   object-fit: contain;
   display: block;
   margin: 0 auto;   /* CENTRALIZA */
-} 
+}
+
 
 
 .btn_atalho {

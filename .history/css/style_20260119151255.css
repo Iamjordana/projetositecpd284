@@ -174,7 +174,7 @@ main {
 }
 .card img {
   width: 115px;     /* AUMENTA a imagem */
-  height: 115px;
+  height: 110px;
   object-fit: contain;
   display: block;
   margin: 0 auto;   /* CENTRALIZA */
